@@ -12,6 +12,6 @@ CREATE TABLE Players (
 	);
 
 CREATE TABLE Matches (
-	PlayerID serial references Players
+	PlayerID serial references Players,
 	Result varchar(4)
 	);
